@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>发票详细页</title>
+    <link rel="stylesheet" type="text/css" href="../css/easyui.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/icon.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/panel.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/detailsbids.css"/>
+    <script type="text/javascript" src="../js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="../js/jQuery.easyui.js"></script>
+    <script type="text/javascript" src="../js/datagrid-detailview.js"></script>
+    <script type="text/javascript" src="../js/members.js"></script>
+</head>
+<body>
+<div class="information cent">
+    <p class="title">注册信息</p>
+    <ul>
+        <li><span>用户名：</span><span>zhoujy</span></li>
+        <li><span>手机号码：</span><span>13967314931</span></li>
+        <li><span>注册时间：</span><span>2016年10月11日15:04:59</span></li>
+        <li><span>注册IP：</span><span>123.123.434.234</span></li>
+        <li><span>IP归属：</span><span>浙江省嘉兴市</span></li>
+        <li><span>登录次数：</span><span>5次</span></li>
+        <li><span>最近登录：</span><span>2016年10月11日15:12:49</span></li>
+    </ul>
+</div>
+<!--审核-->
+<div class="audit cent">
+    <p class="title">开票信息</p>
+    <ul>
+        <li><span>发票抬头：</span><span>嘉兴禾码科技服务有限公司</span></li>
+        <li><span>发票类型：</span><span>增值税专用发票</span></li>
+        <li><span>税务登记证书：</span><span>91330401MA28A51531</span></li>
+        <li><span>基本开户银行名称：</span><span>中国银行坊工路支行</span></li>
+        <li><span>基本开户账号：</span><span>91330401MA28A51531</span></li>
+        <li><span>注册场所地址：</span><span>浙江省嘉兴市</span></li>
+        <li><span>注册固定电话：</span><span>0573-12345678</span></li>
+        <li><span>营业执照复印件：</span><span><img src="../images/P60810.jpg" alt="营业执照" style="width: 40%;height:auto;"></span></li>
+        <li><span>税务登记复印件：</span><span><img src="../images/P60810.jpg" alt="营业执照" style="width: 40%;height:auto;"></span></li>
+        <li><span>一般纳税人资格证复印件：</span><span><img src="../images/P60810.jpg" alt="营业执照" style="width: 40%;height:auto;"></span></li>
+    </ul>
+    <div class="btn">
+        <input type="submit" value="通过" class="pass">
+        <input type="submit" value="退回" class="quit">
+    </div>
+</div>
+<div class="express cent">
+    <p class="title">快递信息</p>
+    <ul>
+        <li><span>收件人：</span><span>周佳缘</span></li>
+        <li><span>联系电话：</span><span>13967314931</span></li>
+        <li><span>收件地址：</span><span>浙江省嘉兴市南湖区海盐塘路464号</span></li>
+        <li><span>快递公司：</span>
+            <select name="list">
+                <option value="1">顺丰快递</option>
+            </select>
+        </li>
+        <li><span>快递单号：</span> <input type="tel" placeholder="请输入快递单号"></li>
+    </ul>
+    <div class="btn">
+        <input type="submit" value="确认" class="pass">
+    </div>
+</div>
+</body>
+</html>

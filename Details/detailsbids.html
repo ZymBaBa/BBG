@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>招标详细页</title>
+    <link rel="stylesheet" type="text/css" href="../css/easyui.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/icon.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/panel.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/detailsbids.css"/>
+    <script type="text/javascript" src="../js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="../js/jQuery.easyui.js"></script>
+    <script type="text/javascript" src="../js/datagrid-detailview.js"></script>
+    <script type="text/javascript" src="../js/members.js"></script>
+</head>
+<body>
+<div class="information cent">
+    <p class="title">企业信息</p>
+      <ul>
+          <li><span>企业名称：</span><span>嘉兴禾码科技服务有限公司</span></li>
+          <li><span>负责人：</span><span>周佳缘</span></li>
+          <li><span>联系方式：</span><span>13967314931</span></li>
+      </ul>
+</div>
+<!--审核-->
+<div class="audit cent">
+    <p class="title">标的信息</p>
+  <ul>
+      <li><span>方式：</span><span>综合招标</span></li>
+      <li><span>分类：</span><span>教育产品-投影仪</span></li>
+      <li><span>保证金：</span><span>3万</span></li>
+      <li><span>报名下限：</span><span>4家</span></li>
+      <li><span>标号：</span><span>JXHEMA0001201610091050</span></li>
+      <li><span>标名：</span><span>山西省阳泉盂县辰通煤业有限公司副斜井液压可摘挂抱索器架空乘人</span></li>
+      <li><span>标底：</span><span class="centSpan">亿欧8月25日消息：今天上午，2016中国民营企业500强发布会在北京召开。榜单显示，华为控股有限公司以营收总额3590.09亿排名第一，苏宁控股、山东魏桥集团分别以3502.88亿、3332.38亿分列二三位。联想、正威国际、大连万达、中国华信、恒力集团、江苏沙钢、万科，分列四至十位。
+此外，全国工商联经济部部长谭林发布了《2016中国民营企业500强发布报告》。报告显示，2015年，民营企业500强入围门槛达101.75亿元，比上年的95.09亿元净增6.66亿元。2015年，民营企业500强资产总额为173004.87亿元，户均346.01亿元，增幅达25.16%。
+从行业角度看，民营企业500强前10大行业，呈现出由传统产业向新兴产业调整的趋势，其中，零售业入围的企业数量同比出现了减少。</span></li>
+      <li><span>相关文件：</span><span><a href="#">文件1</a><a href="#">文件2</a></span></li>
+      <li><span>提交审核时间：</span><span>2016-10-09 13:44:56</span></li>
+      <li><span>报名结束时间：</span><span>2016-10-15</span></li>
+      <li><span>交标书结束时间：</span><span>2016-10-20</span></li>
+      <li><span>报价开始时间：</span><span>2016-10-25 10:00</span></li>
+      <!--审核通过之后显示审核人的姓名-->
+      <li><span>审核人：</span><span>陆敏琪</span></li>
+      <li><span>审核时间：</span><span>2016-10-9 13:44:38</span></li>
+  </ul>
+    <div class="btn">
+        <input type="submit" value="通过" class="pass">
+        <input type="submit" value="退回" class="quit">
+    </div>
+</div>
+<!--报名-->
+<div class="registration cent">
+    <p class="title">报名</p>
+    <!--只有在相应阶段显示，过了阶段，这信息就不用显示，只要显示相体的详细信息就可以了-->
+    <p class="bidTime">报名结束时间：<span>2016-10-15</span>剩余天数：<span>6天</span>报名数量：<span>4</span></p>
+    <!--下面放已经报名的公司-->
+    <div class="company">
+        <p>嘉兴禾码科技服务有限公司</p>
+        <p>周佳缘</p>
+        <p>13967314931</p>
+        <p>2016-10-9</p>
+    </div>
+    <div class="company">
+        <p>嘉兴禾码科技服务有限公司</p>
+        <p>周佳缘</p>
+        <p>13967314931</p>
+        <p>2016-10-9</p>
+    </div>
+    <div class="company">
+        <p>嘉兴禾码科技服务有限公司</p>
+        <p>周佳缘</p>
+        <p>13967314931</p>
+        <p>2016-10-9</p>
+    </div>
+    <div class="company">
+        <p>嘉兴禾码科技服务有限公司</p>
+        <p>周佳缘</p>
+        <p>13967314931</p>
+        <p>2016-10-9</p>
+    </div>
+</div>
+<!--交标书-->
+<div class="tenders cent">
+    <p class="title">交标书</p>
+    <p class="bidTime">交标书结束时间：<span>2016-10-15</span>剩余天数：<span>6天</span>报名数量：<span>4</span>交标数量：<span>3</span>撤标数：<span>1</span></p>
+    <div class="company">
+        <p>嘉兴禾码科技服务有限公司</p>
+        <p>周佳缘</p>
+        <p>13967314931</p>
+        <!--记录动作及动作的时间-->
+        <p>已撤标</p>
+        <p>2016-10-16</p>
+    </div>
+    <div class="company">
+        <p>上海迅克自动化科技有限公司</p>
+        <p>周佳缘</p>
+        <p>13967314931</p>
+        <p>已交标书</p>
+        <p>2016-10-17</p>
+    </div>
+    <div class="company">
+        <p>上海迅克自动化科技有限公司</p>
+        <p>周佳缘</p>
+        <p>13967314931</p>
+        <p>已交标书</p>
+        <p>2016-10-17</p>
+    </div>
+    <div class="company">
+        <p>上海迅克自动化科技有限公司</p>
+        <p>周佳缘</p>
+        <p>13967314931</p>
+        <p>已交标书</p>
+        <p>2016-10-17</p>
+    </div>
+</div>
+<!--报价-->
+<div class="quotes cent">
+    <p class="title">报价</p>
+    <!--报价开始了的话显示轮数-->
+    <p class="bidTime">报价开始时间：<span>2016-10-15 10:00</span>剩余天数：<span>6天</span>将参加公司：<span>3</span></p>
+    <div class="company">
+        <p>嘉兴禾码科技服务有限公司</p>
+        <p>周佳缘</p>
+        <p>13967314931</p>
+        <p>已报价</p>
+    </div>
+    <div class="company">
+        <p>上海迅克自动化科技有限公司</p>
+        <p>周佳缘</p>
+        <p>13967314931</p>
+        <p>已报价</p>
+    </div>
+    <div class="company">
+        <p>上海迅克自动化科技有限公司</p>
+        <p>周佳缘</p>
+        <p>13967314931</p>
+        <p>已报价</p>
+    </div>
+    <div class="company">
+        <p>上海迅克自动化科技有限公司</p>
+        <p>周佳缘</p>
+        <p>13967314931</p>
+        <p>未报价</p>
+    </div>
+</div>
+<!--选标-->
+<div class="bids cent">
+    <!--要有个选标状态-->
+    <p class="title">选标</p>
+    <p class="bidTime">未选标</p>
+    <div class="company">
+        <p>嘉兴禾码科技服务有限公司</p>
+        <p>周佳缘</p>
+        <p>13967314931</p>
+    </div>
+    <div class="company">
+        <p>上海迅克自动化科技有限公司</p>
+        <p>周佳缘</p>
+        <p>13967314931</p>
+    </div>
+    <div class="company">
+        <p>上海迅克自动化科技有限公司</p>
+        <p>周佳缘</p>
+        <p>13967314931</p>
+    </div>
+</div>
+<!--流标/废标-->
+<div class="flowLabel cent">
+    <p class="title">流标/废标</p>
+    <p>流标/废标显示在相应的阶段后面</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>企业详细页</title>
+    <link rel="stylesheet" type="text/css" href="../css/easyui.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/icon.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/panel.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/detailsbids.css"/>
+    <script type="text/javascript" src="../js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="../js/jQuery.easyui.js"></script>
+    <script type="text/javascript" src="../js/datagrid-detailview.js"></script>
+    <script type="text/javascript" src="../js/members.js"></script>
+</head>
+<body>
+<div class="information cent">
+    <p class="title">注册信息</p>
+      <ul>
+          <li><span>用户名：</span><span>zhoujy</span></li>
+          <li><span>手机号码：</span><span>13967314931</span></li>
+          <li><span>注册时间：</span><span>2016年10月11日15:04:59</span></li>
+          <li><span>注册IP：</span><span>123.123.434.234</span></li>
+          <li><span>IP归属：</span><span>浙江省嘉兴市</span></li>
+          <li><span>登录次数：</span><span>5次</span></li>
+          <li><span>最近登录：</span><span>2016年10月11日15:12:49</span></li>
+      </ul>
+</div>
+<!--审核-->
+<div class="audit cent">
+    <p class="title">认证信息</p>
+  <ul>
+      <li><span>企业名称：</span><span>嘉兴禾码科技服务有限公司</span></li>
+      <li><span>企业账号数：</span><span>3个</span></li>
+      <li><span>法人姓名：</span><span>周佳缘</span></li>
+      <li><span>联系方式：</span><span>13967314931</span></li>
+      <li><span>招标识别码：</span><span>JXHEMA</span></li>
+      <li><span>营业执照号：</span><span>91330401MA28A51531</span></li>
+      <li><span>营业执照：</span><span> <img src="../images/P60810.jpg" alt="营业执照" style="width: 40%;height:auto;"></span></li>
+  </ul>
+    <div class="btn">
+        <input type="submit" value="通过" class="pass">
+        <input type="submit" value="退回" class="quit">
+    </div>
+</div>
+<!--非企业会员/企业会员查看的时候显示数量-->
+<div class="registration cent">
+    <p class="title">历史发标数</p>
+    <!--下面放已经报名的公司-->
+    <div class="company">
+        <!--发标账号-->
+        <p>13967314931</p>
+        <!--发标时间-->
+        <p>2016-10-11</p>
+        <!--标名-->
+        <p>运湖农场保障性安居工程配套基础设施-亮化工程</p>
+        <!--状态：审核、报名、交标书、报价、履约、完成、流标、废标-->
+        <p>完成</p>
+    </div>
+    <div class="company">
+        <!--发标账号-->
+        <p>13967314931</p>
+        <!--发标时间-->
+        <p>2016-10-12</p>
+        <!--标名-->
+        <p>固原市棚户区改造（旧城改造安置房建设）-西湖路片区建设项目施</p>
+        <!--状态：审核、报名、交标书、报价、履约、完成、流标、废标-->
+        <p>完成</p>
+    </div>
+    <div class="company">
+        <!--发标账号-->
+        <p>13967314931</p>
+        <!--发标时间-->
+        <p>2016-10-13</p>
+        <!--标名-->
+        <p>中资博洋环保科技研发推广中心项目招标公告</p>
+        <!--状态：审核、报名、交标书、报价、履约、完成、流标、废标-->
+        <p>完成</p>
+    </div>
+    <div class="company">
+        <!--发标账号-->
+        <p>13967314931</p>
+        <!--发标时间-->
+        <p>2016-10-14</p>
+        <!--标名-->
+        <p>大同县西坪镇坨坊村、上榆涧村2016易地扶贫搬迁和农村住房抗</p>
+        <!--状态：审核、报名、交标书、报价、履约、完成、流标、废标-->
+        <p>完成</p>
+    </div>
+</div>
+<!--企业会员查看的时候显示的数据-->
+<div class="tenders cent">
+    <p class="title">历史投标数</p>
+    <div class="company">
+        <!--投的ID-->
+        <p>JXHEMA0001201610111551</p>
+        <!--标名-->
+        <p>大同县西坪镇坨坊村、上榆涧村2016易地扶贫搬迁和农村住房抗</p>
+        <!--状态：未中标、已中标-->
+        <p>未中标</p>
+        <!--选标结束的时间-->
+        <p>2016-10-11 16:04:22</p>
+    </div>
+    <div class="company">
+        <!--投的ID-->
+        <p>JXHEMA0001201610111551</p>
+        <!--标名-->
+        <p>固原市棚户区改造（旧城改造安置房建设）-西湖路片区建设项目施</p>
+        <!--状态：未中标、已中标-->
+        <p>已中标</p>
+        <!--选标结束的时间-->
+        <p>2016-10-11 16:04:22</p>
+    </div>
+</div>
+</body>
+</html>
